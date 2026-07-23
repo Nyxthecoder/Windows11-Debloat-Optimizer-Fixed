@@ -1,134 +1,80 @@
-\# 🚀 Optimize \& Debloat Windows 11 — My Personal PowerShell Script for Peak Performance 💻
+# 🚀 Windows 11 Debloat & Optimizer
 
-
-
-After every Windows 11 installation, I always run my \*\*custom PowerShell script\*\* to remove unnecessary background apps, services, and telemetry — ensuring a minimal RAM and CPU footprint with zero instability.
-
-
+**A PowerShell script to optimize Windows 11 performance, privacy, and usability by removing bloatware, disabling unnecessary services, and applying system tweaks.**
 
 ---
 
-
-
-\## 🧰 What This Script Does
-
-
-
-✅ \*\*Removes Built-in Bloatware\*\*  
-
-Uninstalls default apps like OneNote, Bing apps, Paint 3D, Cortana, Skype, Xbox services, and more.
-
-
-
-✅ \*\*Disables Unnecessary Background Services\*\*  
-
-Stops telemetry, search indexing, Xbox services, and other background processes to free up CPU and RAM.
-
-
-
-✅ \*\*Turns Off Telemetry \& Feedback Tasks\*\*  
-
-Improves privacy and system responsiveness by disabling data collection and scheduled feedback.
-
-
-
-✅ \*\*Disables Optional Features\*\*  
-
-Turns off unused components like Windows Media Player (if not required).
-
-
-
-✅ \*\*Cleans System Temporary Files\*\*  
-
-Removes unnecessary temp/cache data to free up disk space and improve load times.
-
-
-
-✅ \*\*Stops OneDrive Auto Startup\*\*  
-
-Prevents OneDrive from auto-launching to keep your boot clean and fast.
-
-
-
-✅ \*\*Applies Registry-Level Tweaks\*\*  
-
-Removes Bing integration in Start Menu, disables feedback notifications and Live Tiles for a distraction-free experience.
-
-
-
-✅ \*\*Removes People Icon \& Suggested Content\*\*  
-
-Keeps taskbar and Start Menu clean and minimal.
-
-
+## 📌 Overview
+This script is designed to **streamline Windows 11** by removing unnecessary applications, disabling resource-heavy services, and applying registry tweaks to improve **performance, privacy, and usability**. It is ideal for **power users, gamers, and IT professionals** who want a **lean, efficient, and distraction-free** Windows 11 experience.
 
 ---
 
+## ✨ Features
 
+### 🗑️ **Bloatware Removal**
+- Uninstalls default apps such as:
+  - OneNote
+  - Bing apps
+  - Paint 3D
+  - Cortana
+  - Skype
+  - Xbox services
+  - Other unnecessary pre-installed applications
 
-\## ⚙️ Why This Setup?
+### ⚙️ **Service & Task Optimization**
+- Disables unnecessary background services:
+  - Telemetry and diagnostics
+  - Search indexing
+  - Xbox-related services
+  - Superfetch (SysMain)
+  - Windows Tips & Tricks
+- Stops scheduled tasks related to **feedback, updates, and unnecessary background processes**
 
+### 🔒 **Privacy Enhancements**
+- Disables telemetry and data collection
+- Removes Bing integration from the Start Menu
+- Disables Live Tiles and suggested content
 
+### 🧹 **System Cleanup**
+- Clears temporary files and caches
+- Removes unnecessary system logs and dump files
 
-This configuration ensures:
+### 🚫 **OneDrive & Cloud Services**
+- Prevents OneDrive from auto-starting
+- Disables OneDrive file syncing (optional)
 
-
-
-\- ⚡ Faster boot and smoother multitasking  
-
-\- 🧠 Reduced CPU/RAM usage  
-
-\- 🔒 Less telemetry, more privacy  
-
-\- 🧼 Clean, distraction-free interface  
-
-
-
-Whether you’re a \*\*power user\*\*, \*\*gamer\*\*, or \*\*IT admin\*\*, this script provides a \*\*lightweight and responsive\*\* Windows 11 experience.
-
-
-
----
-
-
-
-\## 💡 Additional Performance Tip
-
-
-
-1\. Go to:  
-
-&nbsp;  \*\*System → Performance Options → Visual Effects\*\*
-
-
-
-2\. Select \*\*Custom\*\*, and tick only:  
-
-&nbsp;  ✅ \*Smooth edges of screen fonts\*
-
-
-
-This gives your desktop a clean, classic, and lag-free feel — perfect for performance enthusiasts.
-
-
+### 🎨 **UI & UX Tweaks**
+- Removes the **People icon** from the taskbar
+- Disables **suggested content** in the Start Menu
+- Applies registry tweaks for a **cleaner, more minimal interface**
 
 ---
 
+## 🎯 Why Use This Script?
+This script is **tested and refined** to provide the following benefits:
 
+✅ **Improved Performance** – Reduces CPU, RAM, and disk usage by disabling unnecessary processes.
+✅ **Enhanced Privacy** – Minimizes data collection and telemetry.
+✅ **Cleaner Interface** – Removes clutter and distractions from the UI.
+✅ **Faster Boot Times** – Disables auto-starting apps and services.
+✅ **Customizable** – Easily modify the script to suit your needs.
 
-\## ⚡ How to Run
+---
 
+## 📜 Requirements
+- **Windows 11** (Tested on versions 21H2, 22H2, 23H2, and 24H2)
+- **PowerShell 5.1 or later** (Included by default in Windows 11)
+- **Administrator privileges** (Required to run the script)
 
+---
 
-> \*\*Note:\*\* Run this script as Administrator.
+## 🛠️ How to Use
 
-
-
-1\. Download or clone this repository:
-
-&nbsp;  ```powershell
-
-&nbsp;  git clone https://github.com/<your-username>/Windows11-Debloat-Optimizer.git
-
+### **Method 1: Clone & Run (Recommended)**
+1. Open **PowerShell as Administrator**.
+2. Clone the repository:
+   ```powershell
+   git clone https://github.com/Nyxthecoder/Windows11-Debloat-Optimizer-Fixed.git
+   cd Windows11-Debloat-Optimizer-Fixed
 
 
