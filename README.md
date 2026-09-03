@@ -62,8 +62,7 @@ This script is **tested and refined** to provide the following benefits:
 ---
 
 ## 📜 Requirements
-- **Windows 11** (Tested on versions 21H2, 22H2, 23H2, and 24H2)
-- **PowerShell 5.1 or later** (Included by default in Windows 11)
+- **Windows 11** (Tested on versions 21H2, 22H2, 23H2,24H2 and 25H2 Powershell 5.1 or later** (Included by default in Windows 11 (I Recommend Powershell 7)
 - **Administrator privileges** (Required to run the script)
 
 ---
